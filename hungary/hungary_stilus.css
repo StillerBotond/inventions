@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(20,20,20);
+    color: rgb(182, 182, 182);
+}
+
+#cim {
+    text-align: center;
+    font-style: bold;
+}
+
+.feltalalo {
+    text-align: left;
+    width: 50%;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.talalmany {
+    text-align: right;
+    left: 0;
+    z-index: 1;
+    width: -50%;
+    padding-top: 10px;
+}
+
+.feltalalo img {
+    padding-left: 50px;
+    height: 350px;
+    width: 500px;
+}
+
+.talalmany img {
+    padding-right: 50px;
+    height: 350px;
+    width: 500px;
+}
+
+#teller {
+    padding-left: 50px;
+    height: 175px;
+    width: 500px;
+}
+
+#leo {
+    padding-left: 50px;
+    height: 175px;
+    width: 500px;
+}
